@@ -32,10 +32,10 @@ public class NupubApplication {
 
 
 		final PNConfiguration pnConfiguration = new PNConfiguration();
-		pnConfiguration.setSubscribeKey("sub-c-dd3ddef2-5057-11ec-b60b-aa41d66f579f");
+		pnConfiguration.setSubscribeKey("sssss");//change
 		//pnConfiguration.setPublishKey("myPublishKey");
-		pnConfiguration.setUuid("Vinni_2021_Ruaka_myUniqueUUID");
-		String channelName = "pubnub_onboarding_channel";
+		pnConfiguration.setUuid("sssss"); //change
+		String channelName = "ssssssssssssssssss";//change
 		PubNub pubnub = new PubNub(pnConfiguration);
 
 		pubnub.addListener(new SubscribeCallback() {
